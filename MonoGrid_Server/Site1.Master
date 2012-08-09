@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Web.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>无标题页</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+        }
+        .style2
+        {
+            width: 60%;
+        }
+        a
+        {
+        	text-decoration:none;
+        	color:#333;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="title">
+        <h2 class="style1">
+            基于Mono 的分布式计算平台</h2>
+    </div>
+    <div>
+    
+        <table class="style2">
+            <tr >
+                <td>
+                   <a href="../FClient/Register.aspx">注册用户</a></td>
+                <td>
+                    <a href="../FClient/Personal.aspx">个人信息</a></td>
+                <td>
+                    <a href="../FClient/TaskStatus.aspx">任务状态</a></td>
+                <td>
+                    <a href="../FClient/Upload.aspx">上传任务</a></td>
+                <td>
+                   <a href="../FManage/ServerMain.aspx">MonoGrid</a></td>
+                <td>
+                   <a href="../FManage/UserList.aspx">用户管理</a></td>
+                <td>
+                    <a href="../FManage/Parameter.aspx">参数设置</a></td>
+            </tr>
+        </table>
+    
+    </div>
+    <div class="style1">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GridDaemon/UpdateMethod.cs">
+    <Files>
+      <File FileName="GridDaemon/Program.cs" Line="71" Column="1" />
+      <File FileName="GridDaemon/NodeHelper.cs" Line="172" Column="17" />
+      <File FileName="GridDaemon/UpdateMethod.cs" Line="56" Column="10" />
+      <File FileName="GridDaemon/FileHelper.cs" Line="101" Column="24" />
+      <File FileName="GridDaemon/MainService.cs" Line="25" Column="65" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
